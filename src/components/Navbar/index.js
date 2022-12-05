@@ -18,7 +18,7 @@ function MyNavbar(props) {
                   <NavLink className="me-3 text-dark text-decoration-none" to="/filmes">Filmes</NavLink>
                   <NavLink className="me-3 text-dark text-decoration-none" to="/sobre">Sobre</NavLink>
               </Nav>
-              </Navbar.Collapse>z
+              </Navbar.Collapse>
           </Container>
           </Navbar>
 

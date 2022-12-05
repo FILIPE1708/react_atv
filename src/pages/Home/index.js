@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from '../../components/Card/Card';
+import CardNew from '../../components/Card/Card';
 
 const Home = () => {
     return (
@@ -10,13 +10,13 @@ const Home = () => {
         <h3>Início</h3>
         <Row>
           <Col md={4}>
-              <Card titulo="titulo" descricao="meu texto" button="Comprar"/>
+              <CardNew titulo="titulo" descricao="meu texto"/>
           </Col>
           <Col md={4}>
-              <Card titulo="titulo" descricao="meu texto" button="Comprar"/>
+              <CardNew titulo="titulo" descricao="meu texto"/>
           </Col>
           <Col md={4}>
-              <Card titulo="titulo" descricao="meu texto" button="Comprar"/>
+              <CardNew titulo="titulo" descricao="meu texto"/>
           </Col>
         </Row>
       </Container>
