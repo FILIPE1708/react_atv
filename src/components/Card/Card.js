@@ -3,12 +3,12 @@ import { Card, CardHeader, CardFooter, CardBody, CardText } from 'reactstrap';
 
 const CardNew = (props) => {
     return (
-        <Card>
-            <CardHeader>{props.titulo}</CardHeader>
+        <Card className={props.borda}>
+            <CardHeader className={props.cort}>{props.titulo}</CardHeader>
             <CardBody>
                 <CardText>{props.descricao}</CardText>
             </CardBody>
-            <CardFooter></CardFooter>
+            <CardFooter className={props.corf}></CardFooter>
         </Card>
     )
 }
